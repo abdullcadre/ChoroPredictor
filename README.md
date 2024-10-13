@@ -6,11 +6,11 @@
 
 1. **Transformada Rápida de Fourier (FFT)**:
    - Após a gravação do choro, a aplicação processa o áudio utilizando uma **Transformada Rápida de Fourier (FFT)** para gerar um espectrograma, que será utilizado para extrair características importantes. 
-   ![FFT](FFT.JPG)
+   ![FFT](FFT.jpeg)
 
 2. **Rede Neural Convolucional (CNN)**:
    - O espectrograma gerado é analisado através de uma **Rede Neural Convolucional (CNN)** pré-treinada, que identifica padrões no áudio que indicam a razão do choro, como fome, cansaço, desconforto, entre outros.
-   ![CNN](CNN.JPG)
+   ![CNN](CNN.jpeg)
 
 ### Características
 
