@@ -14,6 +14,21 @@
 
 ### Características
 
+Aqui está a tabela com os códigos para cada razão do choro do bebé:
+
+| Código | Razão do Choro      |
+|--------|---------------------|
+| bp     | Dor de barriga       |
+| bu     | Necessidade de arrotar|
+| ch     | Temperatura          |
+| dc     | Desconforto          |
+| hu     | Fome                 |
+| lo     | Solidão              |
+| sc     | Assustado            |
+| ti     | Cansado              |
+
+
+
 - **Previsão automática** das razões do choro (fome, cansaço, dor, etc.)
 - **Respostas personalizadas** com base no motivo identificado (por exemplo, tocar uma canção de embalar se o bebé estiver cansado).
 - **Integração com Firebase** para sincronização de dados entre o dispositivo Android e o servidor.
