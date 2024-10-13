@@ -6,10 +6,12 @@
 
 1. **Transformada Rápida de Fourier (FFT)**:
    - Após a gravação do choro, a aplicação processa o áudio utilizando uma **Transformada Rápida de Fourier (FFT)** para gerar um espectrograma, que será utilizado para extrair características importantes. 
+
    ![FFT](FFT.jpeg)
 
 2. **Rede Neural Convolucional (CNN)**:
    - O espectrograma gerado é analisado através de uma **Rede Neural Convolucional (CNN)** pré-treinada, que identifica padrões no áudio que indicam a razão do choro, como fome, cansaço, desconforto, entre outros.
+ 
    ![CNN](CNN.jpeg)
 
 ### Características
@@ -27,16 +29,8 @@ Aqui está a tabela com os códigos para cada razão do choro do bebé:
 | sc     | Assustado            |
 | ti     | Cansado              |
 
-
-
-- **Previsão automática** das razões do choro (fome, cansaço, dor, etc.)
-- **Respostas personalizadas** com base no motivo identificado (por exemplo, tocar uma canção de embalar se o bebé estiver cansado).
-- **Integração com Firebase** para sincronização de dados entre o dispositivo Android e o servidor.
-
 ### Tecnologias Utilizadas
 
-- **Python** (para o processamento de áudio e machine learning)
-- **Keras e TensorFlow** (para a implementação da rede neural)
-- **Android** (para a interface do utilizador e interação com o dispositivo)
-- **Firebase** (para armazenamento e sincronização de dados)
-
+- **B4XPages (B4A)**: Utilizado para desenvolver a interface do utilizador na aplicação Android.
+- **TensorFlow**: Framework de machine learning utilizado para implementar a rede neural convolucional (CNN) para a previsão do choro.
+- **Python**: Linguagem de programação usada para processamento de áudio e treino do modelo de machine learning.
